@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 900;
+}
+
+header li {
+    list-style: none;
+    display: inline;
+    padding-left: 16px;
+    font-weight: 750;
+    cursor: pointer;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#title-sobre table {
+    border-bottom: 2.5px solid #000000;
+    width: 98%;
+    margin-left: 16px;
+    margin-bottom: 10px;
+}
+
+#title-produtos table {
+    border-bottom: 2.5px solid #000000;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#sobre-a-loja img {
+    padding-bottom: 45px;
+}
+
+#sobre-a-loja h2 {
+    font-weight: 900;
+    padding-bottom: 8px;
+    padding-left: 16px;
+}
+
+#sobre-a-loja p {
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 16px;
+}
+
+#title-produtos h2 {
+    font-weight: 900;
+    padding-bottom: 8px;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    column-gap: 4.7rem;
+}
+
+.produtos h3 {
+    margin: 8px 0;
+}
+
+.produtos p {
+    max-width: 200px;
+    padding-bottom: 16px;
+    text-align: left;
+}
+
+button {
+    width: 200px;
+    display: block;
+    padding: 8px 0;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    
+    header {
+        position: sticky;
+        top: 0;
+        z-index: auto;
+        background-color: rgba(255, 255, 255, 0.8);
+        display: flex;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        justify-content: space-between;
+    }
+    
+    header h1 {
+        font-family: "Rowdies", sans-serif;
+        font-weight: 900;
+    }
+    
+    header li {
+        list-style: none;
+        display: inline;
+        padding-left: 16px;
+        font-weight: 750;
+        cursor: pointer;
+    }
+    
+    .container-flex {
+        display: flex;
+    }
+    
+    #sobre-a-loja img {
+        padding-bottom: 0;
+        width: 200px;
+        height: 200px;
+        margin-top: 60px;
+    }
+
+    #title-sobre table {
+        border-bottom: 2.5px solid #000000;
+        width: 97%;
+        margin-left: 16px;
+        margin-bottom: 10px;
+    }
+    
+    #title-produtos table {
+        border-bottom: 2.5px solid #000000;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #sobre-a-loja h2 {
+        font-weight: 900;
+        padding-bottom: 8px;
+        padding-left: 16px;
+    }
+    
+    #sobre-a-loja p {
+        text-align: justify;
+        text-justify: inter-word;
+        padding-left: 16px;
+        width: 100%;
+    }
+    
+    #title-produtos h2 {
+        font-weight: 900;
+        padding-top: 25px;
+        padding-bottom: 8px;
+    }
+    
+    .produtos {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 150px 150px 150px 150px;
+        grid-template-rows: 410px 410px 410px 410px;
+        column-gap: 0.57rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .produtos img {
+        max-width: 125px;
+        max-height: 125px;
+    }
+
+    .produtos h3 {
+        margin: 8px 0;
+        max-width: 125px;
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    .produtos p {
+        max-width: 125px;
+        height: 110px;
+        text-align: center;
+        font-size: 0.80em;
+    }
+    
+    button {
+        width: 125px;
+        display: block;
+        padding: 8px 0;
+        border: none;
+        background-color: #000000;
+        color: #ffffff;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    header {
+        position: sticky;
+        top: 0;
+        z-index: auto;
+        background-color: rgba(255, 255, 255, 0.8);
+        display: flex;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        justify-content: space-between;
+    }
+    
+    header h1 {
+        font-family: "Rowdies", sans-serif;
+        font-weight: 900;
+    }
+    
+    header li {
+        list-style: none;
+        display: inline;
+        padding-left: 16px;
+        font-weight: 750;
+        cursor: pointer;
+    }
+    
+    .container-flex {
+        display: grid;
+    }
+    
+    #title-sobre table {
+        border-bottom: 2.5px solid #000000;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    
+    #title-produtos table {
+        border-bottom: 2.5px solid #000000;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    
+    #sobre-a-loja img {
+        margin-top: 40px;
+        display: block;
+        justify-self: center;
+    }
+    
+    #sobre-a-loja h2 {
+        font-weight: 900;
+        padding-bottom: 8px;
+        padding-left: 0px;
+    }
+    
+    #sobre-a-loja p {
+        text-align: justify;
+        padding-left: 0px;
+        margin-bottom: 40px;
+    }
+    
+    #title-produtos h2 {
+        font-weight: 900;
+        padding-bottom: 8px;
+        padding-left: 0;
+    }
+    
+    .produtos {
+        display: grid;
+        grid-template-columns: repeat(1, 200px);
+        grid-template-rows: repeat(4, 425px);
+        column-gap: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    article {
+        align-items: center;
+    }
+
+    .imagens {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .produtos h3 {
+        margin: 8px 0;
+        text-align: center;
+    }
+    
+    .produtos p {
+        max-width: 200px;
+        padding-bottom: 16px;
+        text-align: center;
+    }
+    
+    button {
+        width: 200px;
+        display: block;
+        padding: 8px 0;
+        border: none;
+        background-color: #000000;
+        color: #ffffff;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+}
